@@ -1,0 +1,51 @@
+.CarBookingModalsCont{
+    position: absolute;
+    top: 0;
+    left: 38%;
+    width: 50vh;
+    background-color: white;
+    height: 29vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 3vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.StartDateAndtime{
+    display: flex;
+    gap: 3vh;
+    margin-bottom: 3vh;
+}
+.StartDateAndtime p 
+{
+    margin: 0;
+    font-size: larger;
+    color: var(--tertiary);
+}
+.CrossIcon{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: large;
+    color: var(--tertiary);
+}
+.CrossIcon:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: 0.3s ease;
+}
+.CnfrmBook{
+    height: 4vh;
+    width: 16vh;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    font-size: large;
+}
+.CnfrmBook:hover{
+cursor: pointer;
+}

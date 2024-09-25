@@ -1,0 +1,145 @@
+.NavbarCont {
+  z-index: 1000;
+  height: 10vh;
+  background-color: var(--secondary);
+  color: var(--primary);
+  padding: 0 10vh 0 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.navbarleft {
+  display: flex;
+  /* border: 1px solid white; */
+  width: 27%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarright {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.NavCenter {
+  display: flex;
+  gap: 3vh;
+}
+.navbtn {
+  width: 30vh;
+  background-color: rgb(6, 229, 6);
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-right: 7vh;
+  align-items: center;
+  border: none;
+}
+.navloginbtn {
+  width: 20vh;
+  display: flex;
+  height: 6vh;
+  padding: 1vh;
+  gap: 2vh;
+  /* box-sizing: border-box; */
+  align-items: center;
+  /* border: 2px solid var(--grayShade); */
+}
+.navloginbtn img {
+  width: 27%;
+  height: 100%;
+  background-color: red;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.navloginbtn p {
+  margin: 0;
+}
+.navLogo{
+    padding-bottom: 3px;
+    height: 10vh;
+}
+.navLogo img
+{
+    height: 100%;
+    width: 100%;
+}
+.navLogo {
+  padding-bottom: 3px;
+}
+.navItems {
+  box-sizing: border-box;
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  font-family: var(--fontMain);
+  font-size: small;
+  text-decoration: none;
+  color : var(--primary);
+}
+.navItems:hover {
+  cursor: pointer;
+  border-bottom: 2px solid white;
+}
+.NavbarLocation {
+  display: flex;
+  gap: 1vh;
+  align-items: center;
+  position: relative;
+}
+.NavbarLocation input {
+  height: 4vh;
+  width: 24vh;
+  outline: none;
+  border: none;
+}
+.SearchIcon,.locationIcon {
+  font-size: larger;
+}
+.DetectLocationAutomatically{
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+}
+.DetectLocationAutomatically p{
+    font-size: larger;
+    color: var(--tertiary);
+}
+.locationIcon{
+    color: var(--tertiary);
+}
+.locationIcon:hover{
+    cursor: pointer;
+}
+/* .locationSuggestCont{
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 87.2%;
+} */
+.locationSuggestCont {
+  position: absolute;
+  color: black;
+  top: 5.9vh;
+  left: 0;
+  background-color: var(--primary);
+  max-height: 40vh;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 87.2%;
+}
+.locationSuggestCont p {
+  height: 6vh;
+  width: 100%;
+  margin: 0;
+  font-family: var(--fontsecondary);
+  display: flex;
+  padding-left: 2vh;
+  align-items: center;
+  border-bottom: 2px solid var(--grayShade);
+}
+.locationSuggestCont p:hover {
+  cursor: pointer;
+  background-color: var(--tertiary);
+}

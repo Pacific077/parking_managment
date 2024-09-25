@@ -1,0 +1,8 @@
+.ParkingListPage{
+    padding: 0 25vh 0 25vh;
+}
+.ListContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

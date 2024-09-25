@@ -1,0 +1,13 @@
+:root {
+  --primary: #ffffff;
+  --secondary:#000000;
+  --tertiary: #e76901;
+  --whiteShade:#F5F5F5;
+  --grayShade:#969595;
+  --indiaGreen:#046A38;
+  --fontMain:"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --fontsecondary: "Raleway", sans-serif;
+  --fontNew1: "Ubuntu", sans-serif;
+  --fontNew2: "Cabin", sans-serif;
+}
+
